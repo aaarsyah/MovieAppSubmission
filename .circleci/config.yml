@@ -6,11 +6,18 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/python:3.9  # or any image that supports Java installation
+      - image: circleci/android:2023.08.1  # Use an image with Java 17 pre-installed or install it manually
     steps:
       - checkout
 
-      # Set JAVA_HOME to the correct Java installation
+      # Install Java 17
+      - run:
+          name: Install Java 17
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y openjdk-17-jdk
+
+      # Set JAVA_HOME
       - run:
           name: Set JAVA_HOME
           command: |
