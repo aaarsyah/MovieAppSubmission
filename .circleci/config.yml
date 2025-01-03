@@ -8,27 +8,18 @@ jobs:
     docker:
       - image: cimg/android:2023.10
         environment:
-          JAVA_HOME: /usr/lib/jvm/java-17-openjdk
+          JAVA_HOME: /usr/lib/jvm/java-8-openjdk
 
     steps:
       # Checkout the code
       - checkout
 
-      # Update package manager and install dependencies
+      # Update package manager and install OpenJDK 8 (if needed)
       - run:
-          name: Update and install OpenJDK 17
+          name: Install OpenJDK 8
           command: |
             sudo apt-get update
-            sudo apt-get install -y openjdk-17-jdk
-
-      # Install Gradle if necessary (optional, as the Docker image might already include it)
-      - run:
-          name: Install Gradle
-          command: |
-            wget https://services.gradle.org/distributions/gradle-8.7-all.zip
-            unzip gradle-8.7-all.zip
-            sudo mv gradle-8.7 /opt/gradle
-            sudo ln -s /opt/gradle/bin/gradle /usr/local/bin/gradle
+            sudo apt-get install -y openjdk-8-jdk
 
       # Ensure gradle wrapper has execute permissions
       - run:
