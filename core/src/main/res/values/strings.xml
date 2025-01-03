@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_description">Image</string>
+    <string name="text_primary">Sample of title text</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+    <string name="poster_description">Poster Description\\</string>
+    <string name="movietitle">Movie Title</string>
+    <string name="rating">Rating</string>
+    <string name="ReleaseDate">Release Date</string>
+    <string name="rating_text">Rating: %s</string>
+    <string name="release_date_text">Release Date: %s</string>
+</resources>
