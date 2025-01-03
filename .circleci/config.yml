@@ -51,11 +51,6 @@ jobs:
           key: android-orb-v1-
 
       - run:
-          name: chmod permissions
-
-          command: chmod +x ./gradlew
-
-      - run:
 
           name: Chmod permissions
 
@@ -83,7 +78,7 @@ jobs:
 
           command: ./gradlew build
 
-      - store_artifacts:
+      - store_artifacts: 
 
           path: app/build/reports
 
@@ -99,7 +94,7 @@ jobs:
 
           path: app/build/test-results
 
-      - store_artifacts:
+      - store_artifacts:  
 
           path: app/build/outputs/apk/debug/
 
