@@ -43,6 +43,7 @@ androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-lived
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
 androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common-ktx", version = "1.5.1" }
+kotlinTest = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
