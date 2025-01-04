@@ -1,1 +1,1 @@
-[![aaarsyah](https://dl.circleci.com/status-badge/img/gh/aaarsyah/MovieAppSubmission/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/aaarsyah/MovieAppSubmission/tree/master)
+[![aaarsyah](https://circleci.com/gh/aaarsyah/MovieAppSubmission.svg?style=svg)](https://circleci.com/gh/aaarsyah/MovieAppSubmission)
