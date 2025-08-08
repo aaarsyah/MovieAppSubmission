@@ -11,7 +11,7 @@
 - Okhttp3
 - Glide
 - CI/CD (Code Coverage, Code Style, dan Vulnerability)
-- Injection (Dagger)
+- Dependency Injection (Koin)
 - Leak Canary
 - Obfuscation with ProGuard
 - Encryption Database
