@@ -18,7 +18,7 @@
 - Certificate Pinning
 - NetworkBoundResource
 - RxJava
-
+API : TheMovieDB
 ## App
 <img src= "https://github.com/user-attachments/assets/9084cbb6-e9df-4a90-b195-d9a8619c4b17" width="300"/>
 <img src= "https://github.com/user-attachments/assets/5ccc3a6d-a242-439b-8b19-bdf3703213c7" width="300"/>
